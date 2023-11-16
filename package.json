@@ -1,9 +1,9 @@
 {
-  "name": "backend-template",
+  "name": "dashboard",
   "author": "Leonardo Utreras",
   "license": "ISC",
   "version": "1.2.0",
-  "description": "first backend template",
+  "description": "dashboard-be",
   "main": "index.js",
   "nodemonConfig": {
     "ignore": [
