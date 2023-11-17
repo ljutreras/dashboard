@@ -6,7 +6,7 @@ import { router } from "../router/Index";
 
 const app = express();
 const corsOptions = {
-    origin: 'fe-readconnect.vercel.app',
+    origin: '*',
     methods: ['*'],
     allowedHeaders: ['Content-Type'],
 }
