@@ -1,4 +1,4 @@
-import config from '@app/config/Index'
+import config from '../../../app/config/Index'
 import { MongoClient } from "mongodb";
 
 export class MongoConnection {

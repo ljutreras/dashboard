@@ -1,9 +1,9 @@
-import { DeleteUserController } from "@app/controller/user/delete/DeleteUserController";
-import { GetAllUserController } from "@app/controller/user/get/GetAllUserController";
-import { GetUserController } from "@app/controller/user/post/GetUserController";
-import { CreateUserController } from "@app/controller/user/post/CreateUserController";
 import bodyParser from "body-parser";
 import express from "express";
+import { DeleteUserController } from "../controller/user/delete/DeleteUserController";
+import { GetAllUserController } from "../controller/user/get/GetAllUserController";
+import { CreateUserController } from "../controller/user/post/CreateUserController";
+import { GetUserController } from "../controller/user/post/GetUserController";
 
 export const router = express.Router()
 

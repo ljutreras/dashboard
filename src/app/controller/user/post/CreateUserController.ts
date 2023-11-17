@@ -1,8 +1,8 @@
-import config from '@app/config/Index'
-import StatusCode from '@context/shared/constants/StatusCode'
-import { MongoRepository } from '@context/shared/persistance/MongoRepository'
-import { UserData } from '@context/class/UserData'
+import config from '../../../config/Index'
 import { Request, Response } from "express"
+import { UserData } from '../../../../context/class/UserData';
+import StatusCode from '../../../../context/shared/constants/StatusCode';
+import { MongoRepository } from '../../../../context/shared/persistance/MongoRepository';
 
 export const CreateUserController = async (req: Request, res: Response) => {
     try {

@@ -1,12 +1,12 @@
-import config from "@app/config/Index";
+import config from "../config/Index";
 import cors from 'cors';
-import { router } from "@app/router/Index";
-import { MongoConnection } from '@context/shared/persistance/MongoConnection'
 import express from 'express';
+import { MongoConnection } from "../../context/shared/persistance/MongoConnection";
+import { router } from "../router/Index";
 
 const app = express();
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: 'fe-readconnect.vercel.app',
     methods: ['*'],
     allowedHeaders: ['Content-Type'],
 }

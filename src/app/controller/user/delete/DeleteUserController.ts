@@ -1,7 +1,7 @@
-import config from '@app/config/Index'
-import StatusCode from '@context/shared/constants/StatusCode';
-import { MongoRepository } from '@context/shared/persistance/MongoRepository';
+import config from '../../../config/Index'
 import { Request, Response } from "express"
+import { MongoRepository } from '../../../../context/shared/persistance/MongoRepository';
+import StatusCode from '../../../../context/shared/constants/StatusCode';
 
 export const DeleteUserController = async (req: Request, res: Response) => {
     try {

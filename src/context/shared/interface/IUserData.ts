@@ -1,15 +1,12 @@
-import { Age } from "@context/class/value-object/Age";
-import { Email } from "@context/class/value-object/Email";
-import { FirstName } from "@context/class/value-object/FirstName";
-import { Gender } from "@context/class/value-object/Gender";
-import { LastName } from "@context/class/value-object/LastName";
-import { Password } from "@context/class/value-object/Password";
+import { Age } from "../../class/value-object/Age";
+import { Email } from "../../class/value-object/Email";
+import { FirstName } from "../../class/value-object/FirstName";
+import { LastName } from "../../class/value-object/LastName";
+
 
 export interface IUserData {
     firstName: FirstName
     lastName: LastName;
     age: Age;
     email: Email;
-    password: Password;
-    gender: Gender;
 }
